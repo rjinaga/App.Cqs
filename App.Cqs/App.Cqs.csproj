@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>App.Cqs</PackageId>
+    <PackageTags>CQS</PackageTags>
+    <Version>1.0.0-alpha</Version>
+    <Authors>rjinaga</Authors>
+    <Company>rjinaga</Company>
+    <Description>
+      This library enables to  implement your services using command and query sepration pattern with event driven model.
+    </Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
