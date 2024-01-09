@@ -1,0 +1,2 @@
+# App.Cqs
+CQS library
