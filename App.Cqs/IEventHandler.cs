@@ -4,5 +4,5 @@ public interface IEventHandler<TEvent, TArg>
     where TEvent : IEvent<TArg> 
     where TArg : class
 {
-    void Handle(TArg arg, CancellationToken token=default);
+    void Handle(TArg arg);
 }

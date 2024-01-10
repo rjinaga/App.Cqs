@@ -9,7 +9,7 @@
   <PropertyGroup>
     <PackageId>App.Cqs</PackageId>
     <PackageTags>CQS</PackageTags>
-    <Version>1.0.0-alpha</Version>
+    <Version>1.0.1</Version>
     <Authors>rjinaga</Authors>
     <Company>rjinaga</Company>
     <Description>
